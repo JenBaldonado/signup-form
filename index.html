@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-Up Form</title>
+
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <img
+      class="bg"
+      src="bernd-dittrich-KxBchy-oEIA-unsplash.jpg"
+      alt="bernd-dittrich-KxBchy-oEIA-unsplash image"
+    />
+    <div class="fg-div">
+      <img
+        class="fg"
+        src="jenifer-low-resolution-logo-color-on-transparent-background.png"
+      />
+    </div>
+
+    <main>
+      <div class="description">
+        <b
+          >This is not a real online service! You know you need something like
+          this in your life you realize your deepest dreams. Sign up
+          <i>now</i> to get started. <br /><br />
+          You <i>know</i> you want to.</b
+        >
+      </div>
+      <div class="form-div">
+        <span>Let's Do This!</span>
+
+        <form name="myform" id="my-form" onsubmit="return(validate());">
+          <fieldset>
+            <label>FIRST NAME</label>
+            <input type="text" />
+            <label>LAST NAME</label>
+            <input type="text" />
+            <label>EMAIL</label>
+            <input type="text" />
+          </fieldset>
+          <fieldset>
+            <label>PHONE NUMBER</label>
+            <input type="text" />
+            <label>PASSWORD</label>
+            <input type="text" />
+            <label>CONFIRM PASSWORD</label>
+            <input type="text" />
+          </fieldset>
+        </form>
+      </div>
+
+      <div class="bottom-el">
+        <button type="submit" form="my-form">Create Account</button>
+        <div class="account">
+          Already have an account? <a href="#">Log in</a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

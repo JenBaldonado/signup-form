@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #08183a;
+  color: aliceblue;
+}
+
+.bg {
+  width: 30em;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.fg {
+  z-index: 3;
+  width: 15em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.fg-div {
+  z-index: 1;
+  position: fixed;
+  top: 15em;
+  left: 0;
+  width: 30em;
+  height: 17em;
+  background-color: rgba(240, 248, 255, 0.355);
+}
+
+main {
+  margin-left: 30em;
+}
+
+.description {
+  padding-top: 6.7em;
+  padding-bottom: 2em;
+  font-size: 18px;
+  text-align: left;
+  max-width: 40em;
+  margin-left: 2em;
+}
+.form-div {
+  background-color: #fd5e53;
+  color: rgb(1, 28, 51);
+  padding-top: 1.25em;
+  box-shadow: 0px 0px 15px 5px rgba(243, 239, 239, 0.29);
+  -webkit-box-shadow: 1px 4px 14px 0px rgba(243, 239, 239, 0.29);
+  -moz-box-shadow: 1px 4px 14px 0px rgba(0, 0, 0, 0.29);
+}
+.bottom-el {
+  margin-left: 2em;
+  padding-top: 1em;
+}
+.account {
+  padding-top: 1em;
+}
+
+button {
+  padding: 1em;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #ffe373;
+}
+span {
+  margin-left: 1.5em;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+form {
+  display: flex;
+  padding-top: 2em;
+}
+
+label {
+  display: flex;
+  margin-left: 1.7em;
+}
+
+input[type="text"] {
+  border: 2px solid #4b3d60;
+  border-radius: 6px;
+  width: 15em;
+  height: 1.8em;
+  margin-bottom: 1.5em;
+  margin-left: 2em;
+}
+
+input[type="button"] {
+  display: block;
+}
+
+fieldset {
+  border: none;
+  padding-right: 5em;
+}
+
+a {
+  color: rgb(6, 175, 175);
+  cursor: pointer;
+  text-decoration: none;
+}
